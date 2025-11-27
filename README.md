@@ -131,10 +131,6 @@ Poudel, A., & Gautam, S. (2017). Age of onset of substance use and psychosocial 
 
 Quello, S. B., Brady, K. T., & Sonne, S. C. (2005). Mood disorders and substance use disorder: A complex comorbidity. *Science & Practice Perspectives, 3*(1), 13.
 
-## Author
-
-Nhi (Sandy) Doan
-
 ## Source
 
-SAMHSA. (2020). Treatment Episode Data Set—Discharges (TEDS-D) 2020. Substance Abuse and Mental Health Services Administration. https://www.datafiles.samhsa.gov/dataset/teds-d-2020-ds0001-teds-d-2020-ds0001
+SAMHSA. (2020). Treatment Episode Data Set—Discharges 2020. Substance Abuse and Mental Health Services Administration. https://www.datafiles.samhsa.gov/dataset/teds-d-2020-ds0001-teds-d-2020-ds0001
