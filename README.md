@@ -60,65 +60,6 @@ To isolate treatment-naive patients with immediate program entry and successful 
 4. **Model Building:** Multi-factor ANOVA with stepwise selection; interaction models for subgroup analyses
 5. **Significance Level:** α = 0.05 (two-tailed) for all tests
 
-## Results Summary
-
-### Age at First Use
-
-Significant differences in treatment duration were observed across age-at-first-use groups (H(3) = 332.17, p < 0.01). Pairwise comparisons revealed that younger age at first use was associated with longer treatment stays, with the exception of no significant difference between the 11-and-under and 12–14 groups (H(1) = 1.49, p = 0.22).
-
-### Significant Predictors
-
-The combined model explained approximately 65% of variance in log-transformed LOS (R² ≈ 0.65).
-
-| Predictor | df | F | p |
-|-----------|-----|-------|-------|
-| Service Type | 7, 3307 | 826.1 | <0.01 |
-| Frequency of Use | 2, 3312 | 211.4 | <0.01 |
-| Employment Status | 3, 3311 | 148.1 | <0.01 |
-| Route of Administration | 4, 3310 | 71.06 | <0.01 |
-
-### Subgroup Models
-
-Predictor significance varied by developmental subgroup:
-
-| Age Group | Significant Main Effects |
-|-----------|-------------------------|
-| 12–14 | Service type, frequency, employment |
-| 15–17 | Service type, frequency, route, employment |
-| 18–20 | Service type only (with interaction effects) |
-
-## Repository Structure
-
-```
-├── Opioid_research.R        # Primary analysis script
-├── README.md                # Project documentation
-├── data/
-│   └── tedsd_puf_2020.sav   # Raw data (not included; obtain from SAMHSA)
-└── output/
-    ├── underage.xlsx        # ANOVA results — combined model
-    ├── group12-14.xlsx      # ANOVA results — ages 12–14
-    ├── group15-17.xlsx      # ANOVA results — ages 15–17
-    └── group18-20.xlsx      # ANOVA results — ages 18–20
-```
-
-## Dependencies
-
-```r
-library(tidyverse)
-library(ggplot2)
-library(haven)
-library(expss)
-library(caret)
-library(tibble)
-library(writexl)
-```
-
-## Future Directions
-
-- Compare immediate versus delayed treatment admission
-- Extend analysis to adult age groups
-- Incorporate longitudinal outcome measures (e.g., relapse rates)
-
 ## References
 
 Bauer, M. S., Altshuler, L., Evans, D. R., Beresford, T., Williford, W. O., & Hauger, R. (2005). Prevalence and distinct correlates of anxiety, substance, and combined comorbidity in a multi-site public sector sample with bipolar disorder. *Journal of Affective Disorders, 85*(3), 301–315.
