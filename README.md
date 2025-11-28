@@ -18,14 +18,7 @@ This analysis extends the existing literature by examining how predictive factor
 2. Which clinical and demographic factors are significant predictors of treatment duration?
 3. How do these predictive relationships differ across age subgroups (12–14, 15–17, 18–20)?
 
-## Data Source
-
-**Dataset:** Treatment Episode Data Set—Discharges (TEDS-D) 2020 Public Use File  
-**Source:** Substance Abuse and Mental Health Services Administration (SAMHSA), U.S. Department of Health and Human Services  
-**Sample:** 1,390,000 discharge records; 76 variables  
-**Access:** https://www.datafiles.samhsa.gov/dataset/teds-d-2020-ds0001-teds-d-2020-ds0001
-
-## Methodology
+## Method
 
 ### Sample Selection
 
@@ -72,6 +65,10 @@ Poudel, A., & Gautam, S. (2017). Age of onset of substance use and psychosocial 
 
 Quello, S. B., Brady, K. T., & Sonne, S. C. (2005). Mood disorders and substance use disorder: A complex comorbidity. *Science & Practice Perspectives, 3*(1), 13.
 
-## Source
+## Data Source
 
-SAMHSA. (2020). Treatment Episode Data Set—Discharges 2020. Substance Abuse and Mental Health Services Administration. https://www.datafiles.samhsa.gov/dataset/teds-d-2020-ds0001-teds-d-2020-ds0001
+**Dataset:** Treatment Episode Data Set—Discharges (TEDS-D) 2020 Public Use File  
+**Source:** Substance Abuse and Mental Health Services Administration (SAMHSA), U.S. Department of Health and Human Services  
+**Sample:** 1,390,000 discharge records; 76 variables  
+**Access:** https://www.datafiles.samhsa.gov/dataset/teds-d-2020-ds0001-teds-d-2020-ds0001
+
